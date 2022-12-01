@@ -7,9 +7,15 @@ import Footer from "../sections/footer";
 const Home: NextPage = () => {
   return (
     <div className="">
-      <Header />
-      <Main />
-      <Footer />
+      <div>
+        <Header />
+      </div>
+      <div>
+        <Main />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };
