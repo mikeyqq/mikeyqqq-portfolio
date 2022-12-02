@@ -10,7 +10,7 @@ const Header = () => {
 
     if (currentTheme === "dark") {
       return (
-        <div className="mx-5 my-5 p-2 bg-amber-400 rounded-lg hover:bg-amber-500">
+        <div className="mx-5 my-5 p-2 bg-amber-400 rounded-lg hover:bg-amber-500 ">
           <SunIcon
             className="text-white w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7"
             role="button"
@@ -20,9 +20,9 @@ const Header = () => {
       );
     } else {
       return (
-        <div className="mx-5 my-5 p-2 border-solid shadow-lg  bg-violet-700 rounded-lg">
+        <div className="mx-5 my-5 p-2 bg-violet-700 rounded-lg ">
           <MoonIcon
-            className=" text-white w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7"
+            className=" text-white w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 "
             role="button"
             onClick={() => setTheme("dark")}
           />
