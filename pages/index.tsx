@@ -6,14 +6,12 @@ import Footer from "../sections/footer";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
-      <div>
-        <Header />
-      </div>
-      <div>
+    <div className="bg-main-grey dark:bg-black">
+      <Header />
+      <div className="h-screen">
         <Main />
       </div>
-      <div>
+      <div className="">
         <Footer />
       </div>
     </div>
