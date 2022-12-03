@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-main-grey dark:bg-black">
       <Header />
-      <div className="h-screen">
+      <div className="h-full">
         <Main />
       </div>
       <div className="">

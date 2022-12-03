@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "../components/profile";
 import About from "./about/about";
 import Contact from "./contact/contact";
+import Work from "./work/work";
 
 export default function Main() {
   return (
@@ -15,6 +16,9 @@ export default function Main() {
         </div>
         <div className="w-full md:w-3/4 lg:w-2/4">
           <Contact />
+        </div>
+        <div className="w-full md:w-3/4 lg:w-2/4">
+          <Work />
         </div>
       </div>
     </div>
