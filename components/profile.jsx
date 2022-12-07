@@ -1,11 +1,12 @@
 import React from "react";
+import Image from "next/image";
 
 export default function profile() {
   return (
     <div className="max-w-6xl mx-5 xl:mx-auto">
       <img
-        className="w-40 h-40 rounded-full md:w-52 md:h-52 shadow-2xl dark:shadow-slate-800"
-        src="/profile.png"
+        className="w-full h-56 rounded-full md:w-full md:h-80 lg:h-96 shadow-lg dark:shadow-slate-800"
+        src="/profile.jpg"
         alt="Rounded avatar"
       />
     </div>

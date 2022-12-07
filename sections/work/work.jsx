@@ -23,8 +23,8 @@ export default function Work() {
     },
   ];
   return (
-    <div className="ml-12 mr-12">
-      <div className="flex flex-col lg:flex-row justify-between gap-10 border-2 border-red-700">
+    <div className="ml-12 mr-12 border rounded-md shadow-md dark:shadow-slate-300 px-3 py-3">
+      <div className="flex flex-col lg:flex-row justify-between gap-10">
         {work.map((item, index) => (
           <div
             key={index}
