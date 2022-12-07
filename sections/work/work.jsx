@@ -1,12 +1,9 @@
 import React from "react";
-import { useState } from "react";
 import Image from "next/image";
 import jro from "../../public/JackRabbitOps.png";
 import ah from "../../public/anchenhuang.png";
 
 export default function Work() {
-  const [data, setData] = useState(true);
-
   const work = [
     {
       thumbnail: ah,
