@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="ml-12 mr-12 dark:shadow-slate-300 px-3 py-3">
-      <div className="flex flex-col justify-start shadow-xl px-2 py-2">
+    <div className="ml-12 mr-12 dark:shadow-slate-300 px-3 py-3 border-2 bg-white border-white dark:bg-dark-main">
+      <div className="flex flex-col justify-start px-2 py-2">
         <div>
           <h1 className="font-bold text-2xl">Contact</h1>
         </div>
