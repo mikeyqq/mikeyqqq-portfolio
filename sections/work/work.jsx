@@ -20,7 +20,7 @@ export default function Work() {
     },
   ];
   return (
-    <div className="ml-12 mr-12 border rounded-md shadow-md dark:shadow-slate-300 px-3 py-3">
+    <div className="ml-12 mr-12  dark:shadow-slate-300 px-3 py-3">
       <div className="flex flex-col lg:flex-row justify-between gap-10">
         {work.map((item, index) => (
           <div
@@ -28,7 +28,7 @@ export default function Work() {
             className="flex flex-col justify-start shadow-xl px-2 py-2 w-full font-light"
           >
             <div className="w-full h-52 overflow-scroll mt-2 ">
-              <a href="https://www.anchenhuang.com/">
+              <a href="https://www.mikeyqq.com/">
                 <Image
                   src={item.thumbnail}
                   alt="jackrabbitops picture"
@@ -55,30 +55,3 @@ export default function Work() {
     </div>
   );
 }
-
-// return (
-
-// );
-
-//   <div className="ml-12 mr-12">
-//     <div className="flex flex-row justify-between">
-//       <div className="ml-12 mr-12">
-//         <div className="flex flex-col justify-start shadow-xl">
-//           {/* <img/> */}
-//           <div>test</div>
-//           <div>test</div>
-//           <div>test</div>
-//           <div>test</div>
-//         </div>
-//       </div>
-//       <div className="ml-12 mr-12">
-//         <div className="flex flex-col justify-start shadow-xl">
-//           {/* <img/> */}
-//           <div>test</div>
-//           <div>test</div>
-//           <div>test</div>
-//           <div>test</div>
-//         </div>
-//       </div>
-//     </div>
-//   </div>

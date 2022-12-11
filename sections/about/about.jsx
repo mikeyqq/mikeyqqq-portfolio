@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function About() {
   return (
-    <div className="ml-12 mr-12 border rounded-md shadow-md dark:shadow-slate-300 px-3 py-3">
+    <div className="ml-12 mr-12 dark:shadow-slate-300 px-3 py-3">
       <div className="flex flex-col justify-start shadow-xl px-2 py-2">
         <div>
           <h1 className="font-bold text-2xl">
