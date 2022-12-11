@@ -8,12 +8,14 @@ export default function Work() {
   const work = [
     {
       thumbnail: ah,
+      link: "https://www.mikeyqq.com",
       title: "Personal Portfolio",
       description: "This is a personal website built with NextJS & TailwindCSS",
       technology: "NextJS | TailwindCSS",
     },
     {
       thumbnail: jro,
+      link: "https://www.jackrabbitops.com/",
       title: "JackRabbit Ops",
       description:
         "Create Business Processes Through Conversation! · AI Generated, No Work Required. · Delivered High Quality Documentation · Easily Distributed & Completely Editable.",
@@ -21,10 +23,11 @@ export default function Work() {
     },
     {
       thumbnail: wf,
+      link: "https://github.com/mikeyqq/wayfast-landingpage",
       title: "WayFast Inc",
       description:
         "Cannabis Cultivation Smart Scales! · Automatically Capture data · Increase planting efficiency · Upload Harvest File Anywhere.",
-      technology: "NextJS | TailwindCSS | Apollo GraphQL | AWS Jasper",
+      technology: "NextJS | TailwindCSS",
     },
   ];
   return (
@@ -36,7 +39,7 @@ export default function Work() {
             className="flex flex-col justify-start px-2 py-2 w-full font-light bg-white"
           >
             <div className="w-full h-52 overflow-scroll mt-2 ">
-              <a href="https://www.mikeyqq.com/">
+              <a href={item.link}>
                 <Image
                   src={item.thumbnail}
                   alt="jackrabbitops picture"
@@ -47,7 +50,7 @@ export default function Work() {
               </a>
             </div>
             <div className="mt-10">
-              <a href="https://www.jackrabbitops.com/">
+              <a href={item.link}>
                 <div className="font-bold text-xl lg:text-2xl">
                   {item.title}
                 </div>
