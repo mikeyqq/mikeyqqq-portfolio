@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="website icon" href="/bluebutterfly.svg" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div className="bg-main-grey dark:bg-black">
+      <div className="bg-light-main dark:bg-dark-main">
         <Header />
         <div className="h-full">
           <Main />
