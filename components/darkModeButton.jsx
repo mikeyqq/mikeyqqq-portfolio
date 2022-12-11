@@ -20,7 +20,7 @@ const Header = () => {
       );
     } else {
       return (
-        <div className="mx-5 my-5 p-2 bg-violet-700 rounded-lg ">
+        <div className="mx-5 my-5 p-2 bg-dark-header rounded-lg ">
           <MoonIcon
             className=" text-white w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 "
             role="button"
