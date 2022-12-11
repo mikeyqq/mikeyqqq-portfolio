@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import jro from "../../public/JackRabbitOps.png";
 import ah from "../../public/anchenhuang.png";
-import wf from "../../public/wayfast-landing-page.png";
+import wf from "../../public/wayfastLandingPage.png";
 
 export default function Work() {
   const work = [
