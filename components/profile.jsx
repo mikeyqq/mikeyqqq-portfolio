@@ -2,11 +2,11 @@ import React from "react";
 
 export default function profile() {
   return (
-    <div className="flex justify-center items-center w-auto">
+    <div className="flex items-center justify-center mobileSm:w-32 tabletLg:w-36 desktop:w-52 ">
       <img
-        className="shadow-lg dark:shadow-slate-800"
-        src="/profile.jpg"
-        alt="Rounded avatar"
+        className="rounded-full shadow-xl"
+        src="./profile.jpg"
+        alt="profile avatar image"
       />
     </div>
   );

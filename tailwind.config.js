@@ -7,6 +7,16 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    screens: {
+      mobileSm: { max: "579px" },
+      // => @media (max-width: 579px) { ... }
+
+      tabletLg: { min: "580px", max: "699px" },
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+      desktop: "700px",
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+    },
     extend: {
       colors: {
         "light-header": "#fffffff5",

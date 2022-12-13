@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div className="flex flex-col py-10">
       <div className="flex flex-col items-center gap-10">
-        <div className="flex w-2/5 md:w-1/6 justify-center">
+        <div className="flex items-center justify-center w-full">
           <Profile />
         </div>
         <div className="w-full md:w-3/4 lg:w-2/4">
