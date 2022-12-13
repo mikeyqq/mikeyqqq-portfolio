@@ -17,9 +17,9 @@ const Home: NextPage = () => {
         <div className="h-full">
           <Main />
         </div>
-        <div className="">
+        {/* <div className="">
           <Footer />
-        </div>
+        </div> */}
       </div>
     </>
   );
