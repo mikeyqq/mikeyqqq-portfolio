@@ -11,13 +11,13 @@ export default function Main() {
         <div className="flex items-center justify-center w-full">
           <Profile />
         </div>
-        <div className="w-full md:w-3/4 lg:w-2/4">
+        <div className="w-full tabletLg:w-3/4 desktop:w-2/4">
           <About />
         </div>
-        <div className="w-full md:w-3/4 lg:w-2/4">
+        <div className="w-full tabletLg:w-3/4 desktop:w-2/4">
           <Contact />
         </div>
-        <div className="w-full md:w-3/4 lg:w-2/4">
+        <div className="w-full tabletLg:w-3/4 desktop:w-2/4">
           <Work />
         </div>
       </div>
